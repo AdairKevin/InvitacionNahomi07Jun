@@ -7,7 +7,8 @@ function abrirSobre() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const DATE_TARGET = new Date("07/05/2025 06:00 PM");
+  //mes, dia, año
+  const DATE_TARGET = new Date("06/07/2025 06:00 PM");
 
   const SPAN_DAYS = document.querySelector("span#days");
   const SPAN_HOURS = document.querySelector("span#hours");

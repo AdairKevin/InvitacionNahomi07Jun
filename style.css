@@ -11,7 +11,7 @@ html {
   position: relative;
   width: 100%;
   height: 100dvh;
-  background-color: #fff3d2;
+  background-color: #f3e7ed;
   display: flex;
   cursor: pointer;
   background-size: 10px 10px;
@@ -138,9 +138,10 @@ html {
     font-family: "Italiana", serif;
   }
   p {
-    margin-top: -30px;
+    margin-top: -25px;
     font-size: 50px;
     font-family: "League Script", serif;
+    line-height: 40px;
   }
 }
 
@@ -158,7 +159,7 @@ html {
   align-items: center;
   aspect-ratio: 1/1;
 
-  border: 4px solid #fb64ec; /* Color rosa fuerte */
+  border: 4px solid #bf93a8; /* Color rosa fuerte */
 
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.411);
   background-color: white;
@@ -211,7 +212,7 @@ td .label {
   font-size: 20px;
   font-weight: bold;
   font-family: "Italiana", serif;
-  color: #fb64ec;
+  color: #bf93a8;
   margin-top: 10px; /* Espacio entre el número y el texto */
 }
 
@@ -220,7 +221,7 @@ td span {
   display: inline-block;
   min-width: 60px; /* Ancho mínimo para asegurar que los números no se amontonen */
   padding: 10px;
-  background-color: #fb64ec; /* Color de fondo para los números */
+  background-color: #bf93a8; /* Color de fondo para los números */
   border-radius: 8px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -236,7 +237,7 @@ td span {
   view-timeline-axis: block;
   animation-timeline: --container;
   animation-name: cardAnimacionD;
-  background-color: #fb64ec;
+  background-color: #bf93a8;
   box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.279);
 
   svg {
@@ -303,7 +304,7 @@ td span {
 }
 
 .card-header1 {
-  background-color: #fb64ec; /* Rosa fuerte */
+  background-color: #bf93a8; /* Rosa fuerte */
   color: #ffffff;
   padding: 15px;
   font-size: 20px;
@@ -328,11 +329,11 @@ td span {
 .blockquote-footer {
   margin-top: 10px;
   font-size: 14px;
-  color: #fb64ec;
+  color: #bf93a8;
 }
 
 .blockquote-footer cite {
-  color: #fb64ec;
+  color: #bf93a8;
 }
 
 /* Estilos generales para el carrusel */
@@ -606,7 +607,7 @@ td span {
 .confirmarBtn {
   border: none;
   padding: 10px 15px;
-  background: #fb64ec;
+  background: #bf93a8;
   border-radius: 5px;
   font-family: "Italiana", serif;
   color: #fdf7e5;
